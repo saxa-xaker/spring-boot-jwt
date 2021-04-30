@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ec72041-9785-4191-8082-87c2c31fdd89" name="Default Changelist" comment="0.2 - Added new features to manage users." />
+    <list default="true" id="5ec72041-9785-4191-8082-87c2c31fdd89" name="Default Changelist" comment="0.2 - Added new features to manage users.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rcaltd/springBootJwt/controllers/v0/MainControllerV0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rcaltd/springBootJwt/controllers/v0/MainControllerV0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/rcaltd/springBootJwt/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/rcaltd/springBootJwt/services/UserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Alexandr &lt;35135620+saxa-xaker@users.noreply.github.com&gt;" />
         <option value="saxa-xaker" />
       </list>
     </option>
@@ -37,6 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="Push.Settings">
     <force-push-targets>
@@ -44,17 +50,6 @@
     </force-push-targets>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springBootJwt" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.rcaltd.springBootJwt.Application" />
@@ -74,7 +69,9 @@
       <workItem from="1619525180419" duration="54000" />
       <workItem from="1619525238257" duration="343000" />
       <workItem from="1619543703985" duration="8000" />
-      <workItem from="1619689480773" duration="7971000" />
+      <workItem from="1619689480773" duration="8890000" />
+      <workItem from="1619801067117" duration="70000" />
+      <workItem from="1619801170531" duration="1495000" />
     </task>
     <task id="LOCAL-00001" summary="0.2 - Added new features to manage users.">
       <created>1619696979999</created>
@@ -83,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619696979999</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0.2 - Added new features to manage users.">
+      <created>1619697821197</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619697821197</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +106,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />

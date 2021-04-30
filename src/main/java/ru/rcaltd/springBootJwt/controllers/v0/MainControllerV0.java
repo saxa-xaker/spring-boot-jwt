@@ -69,7 +69,7 @@ public class MainControllerV0 {
     @DeleteMapping(value = "/delete/{username}")
     public HttpStatus deleteUser(@PathVariable String username) {
         try {
-            userRepository.delete(userRepository.findByUsername(username));
+            userService.delete(username);
         } catch (UsernameNotFoundException ignored) {
             throw new CustomException("Delete user failed", HttpStatus.INTERNAL_SERVER_ERROR);
         }

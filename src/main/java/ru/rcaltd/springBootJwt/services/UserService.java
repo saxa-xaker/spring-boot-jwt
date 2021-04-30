@@ -59,13 +59,6 @@ public class UserService implements UserDetailsService {
         userRepository.deleteByUsername(username);
     }
 
-    public User search(String username) {
-        User user = userRepository.findByUsername(username);
-        if (user == null) {
-            throw new CustomException("The user doesn't exist", HttpStatus.NOT_FOUND);
-        }
-        return user;
-    }
 
     public User whoami(HttpServletRequest req) {
         return userRepository.findByUsername(jwtTokenProvider.getUsername(jwtTokenProvider.resolveToken(req)));
